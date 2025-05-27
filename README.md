@@ -1,2 +1,33 @@
 # recon_toolkit
-A multi-purpose reconnaissance tool for Kali Linux that supports OSINT lookups, network scanning and local system enumeration. Built for penetration testers, red teamers, and ethical hackers.
+Recon Toolkit is a professional, all-in-one reconnaissance utility for Kali Linux. It supports multiple modes of operation:
+
+- **OSINT**: Gather public data about an email address (Gravatar, MX records, common social platforms).
+- **NET**: Scan a target IP address for open ports on common services.
+- **SYS**: Collect local system information useful for privilege escalation and auditing.
+
+---
+
+## Features
+- Passive OSINT gathering (email and social footprints)
+- Common TCP port scanner
+- Gravatar profile checker
+- MX record lookup using DNS
+- Local system enumeration (users, sudoers, worl-writable files)
+- CLean JSON output
+
+---
+
+## Requirements
+
+- Python 3.x
+- Kali Linux or any Linux distro
+- 'pip3 install dnspython requests'
+
+---
+
+## Usage
+
+### OSINT Mode
+
+```bash
+python3 recon_toolkit.py osint -t someone@example.com
