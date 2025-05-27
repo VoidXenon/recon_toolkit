@@ -37,12 +37,12 @@ python3 recon_toolkit.py osint -t someone@example.com
 ### Network Scan Mode
 
 ```bash
-python3 recon_toolkit.py osint -t 192.168.1.1
+python3 recon_toolkit.py net -t 192.168.1.1
 ```
 
 ### System Info Mode
 ```bash
-python3 recon_toolkit.py osint -t sys
+python3 recon_toolkit.py sys
 ```
 
 ---
