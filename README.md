@@ -37,7 +37,7 @@ python3 recon_toolkit.py osint -t someone@example.com
 ### Network Scan Mode
 
 ```bash
-python3 recon_toolkit.py osint -t "IP"
+python3 recon_toolkit.py osint -t 192.168.1.1
 ```
 
 ### System Info Mode
