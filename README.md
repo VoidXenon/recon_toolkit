@@ -27,7 +27,12 @@ Recon Toolkit is a professional, all-in-one reconnaissance utility for Kali Linu
 
 ## Usage
 
+
 ### OSINT Mode
 
 ```bash
 python3 recon_toolkit.py osint -t someone@example.com
+
+python3 recon_toolkit.py osint -t "IP"
+
+python3 recon_toolkit.py osint -t sys
